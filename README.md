@@ -26,6 +26,6 @@ Numeric functions - used with setCell
 
 CellValue, Postfixexpressionbuilder, stackoperators_custom are classes or family of polymorphic classes internally used to parse input values, calculate them etc. Code is full of comments that should give the reader an idea of the principle.
 
-make_all_in_one.sh - script for merging the code to one file for easier compilation on your machine without Cmake if needed. (expression.h library of expression parser still must be linked)
+make_all_in_one.sh - script for merging the code to one file for easier compilation on your machine without Cmake if needed. (x86_64-linux-gnu/libexpression_parser.a library of expression parser still must be linked)
 
 EXAMPLES OF INPUT SYNTAX AND CODE USAGE CAN BE FOUND IN "test.cpp"
